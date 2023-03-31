@@ -28,7 +28,18 @@ th {
 }
 td {
   width: 10rem;
+  text-align: center;
 }
 tr:nth-child(even) {
-  background-color: #bdbaba;
+  background-color: lightblue;
+}
+
+.action {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  list-style: none;
 }
